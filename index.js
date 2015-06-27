@@ -1,5 +1,12 @@
-function create(collection){
-fs.open(collection)
+
+
+function use(collection,callback){
+var fs=require('fs');
+ fs.exits(collection,function(exits){
+ if(exits){
+ fs.open(collection,);
+ }eles{}
+});
 this.collection=collection;
 
 return this.collection

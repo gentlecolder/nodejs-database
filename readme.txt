@@ -1,6 +1,6 @@
 install:
 npm install nodejs-database
-
+npm install tingodb
 
 var db=require('nodejs-database');
 var collection='test';
